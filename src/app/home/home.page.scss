@@ -1,3 +1,4 @@
+//APK FUNCIONAL
 #container {
   text-align: center;
 
@@ -25,3 +26,31 @@
 #container a {
   text-decoration: none;
 }
+
+icon-content {
+  --background: transparent!important;
+}
+
+.overlay {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  z-index: 10;
+}
+
+.cameraPreview {
+  display: absolute;
+  position: absolute;
+}
+
+.image-overlay {
+  z-index: 1;
+  position: absolute;
+  top: 16%;
+  width: 90%;
+  height: 85%;
+  border-color: white!important;
+  border-width: 85px!important;
+  border-style: solid!important;
+}
+
